@@ -18,6 +18,17 @@ You can generate training data in any way you prefer. We utilized the Python pac
 
 - The **parameter.py** file contains data address and hyperparameters.
 
+# Results:
+
+| Corrupted data |          Ground truth                         |  Curvelets                         |
+| :-----------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|      <img src="./Figures/mix_input.png" alt="gt_a" style="zoom:33%;" />      | <img src="./Figures/mix_output.png" alt="gt_a" style="zoom:33%;" /> | <img src="./Figures/mix_curvelet.png" alt="gt_a" style="zoom:33%;" /> |
+
+
+| Ours-step1-denoise |      Ours-step2-interpolation                     |  Ours-step3-super resolution                       |
+| :-----------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+|      <img src="./Figures/mix_1.png" alt="gt_a" style="zoom:33%;" />      | <img src="./Figures/mix_2.png" alt="gt_a" style="zoom:33%;" /> | <img src="./Figures/mix_3.png" alt="gt_a" style="zoom:33%;" /> |
+
 # Citation
 
 BibTex
